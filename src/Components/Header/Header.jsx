@@ -1,5 +1,5 @@
-import React from "react";
-import "./Header.css";
+import React from 'react';
+import './Header.css';
 
 const Header = () => {
   return (
@@ -7,10 +7,9 @@ const Header = () => {
       <div className="header_wrapper">
         <h2>NEVSKY toys</h2>
         <div className="urls">
-          <a href="#">Каталог</a>
-          <a href="#">О нас</a>
-          <a href="#">Адрес</a>
-          <a href="#">Вход</a>
+          <a href="catalog">Каталог</a>
+          <a href="about">О нас</a>
+          <a href="auth">Вход</a>
         </div>
       </div>
     </header>
