@@ -1,9 +1,10 @@
 import React from 'react';
+import './NotFound.css';
 
 const NotFound = () => {
   return (
-    <div>
-      <span>not found page</span>
+    <div className="notfound_wrapper">
+      <h1>Страница не найдена, попробуйте перезагрузить страницу</h1>
     </div>
   );
 };

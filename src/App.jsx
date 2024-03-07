@@ -5,11 +5,16 @@ import './App.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Catalog from './Pages/Catalog/Catalog';
 import NotFound from './Pages/NotFound/NotFound';
+import About from './Pages/About/About';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Catalog />,
+  },
+  {
+    path: '/about',
+    element: <About/>
   },
   {
     path: '/catalog',

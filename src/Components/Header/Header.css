@@ -6,9 +6,15 @@ header {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
 }
+header img {
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 .header_wrapper{
     color: white;
-    width: 50%;
+    width: 80%;
+    max-width: 856px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

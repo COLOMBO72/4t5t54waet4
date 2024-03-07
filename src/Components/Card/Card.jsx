@@ -9,6 +9,7 @@ const Card = () => {
       <span>Mercedes Benz C63</span>
       <p>570 р.</p>
       <p>1:24</p>
+      <button>Купить</button>
     </div>
   );
 };

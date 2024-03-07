@@ -1,0 +1,30 @@
+.catalog_wrapper{
+  background-color: #eeeeee9d;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.catalog_wrapper h2{
+    font-weight: 700;
+    margin: 15px;
+    color: white;
+}
+.search_wrapper{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 400px;
+}
+.search_wrapper input {
+  width: 100%;
+  border-radius: 20px;
+  border-width: 0px;
+  padding: 5px 0px 5px 25px;
+}
+.search_wrapper img {
+  position: absolute;
+  left: 10px;
+}
